@@ -1,0 +1,357 @@
+<!doctype html>
+<html class="no-js" lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Домашнее задание 10</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.css" />
+    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700&amp;subset=cyrillic" rel="stylesheet">
+</head>
+
+<body>
+    <!--    Верхнее меню-->
+    <a id="#exs1" class="uk-button uk-button-default" uk-scroll></a>
+
+    <nav class="uk-navbar-container  " uk-navbar>
+        <div class="uk-navbar uk-hidden@m ">
+            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href=""></a>
+        </div>
+        <div class="uk-navbar-left uk-logo uk-navbar-item">
+            Домашняя работа № 10
+        </div>
+        <div class="uk-navbar-right" id="navbar">
+            <ul class="uk-navbar-nav uk-visible@m ">
+                <li><a href="#exs1" uk-scroll>Задача 1</a></li>
+                <li><a href="#exs2" uk-scroll>Задача 2</a></li>
+                <li><a href="#exs3" uk-scroll>Задача 3</a></li>
+                <li><a href="#exs4" uk-scroll>Задача 4</a></li>
+                <li><a href="#exs5" uk-scroll>Задача 5</a></li>
+                <li><a href="#exs6" uk-scroll>Задача 6</a></li>
+                <li>
+                    <a href="../changelog" class="uk-icon-link" uk-icon="icon: github; ratio: 2"></a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--    Начало контейнера второй задачи-->
+    <div class="uk-section uk-section-default ">
+        <div class="uk-container uk-align-center ">
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
+                <!-- Условия первой задачи-->
+                <div class="uk-width-2-5@m uk-column-2-5@m uk-card uk-card-body uk-card-primary uk-animation-slide-left uk-preserve-color">
+                    <h3 class="uk-card-title">Задача #1</h3>
+                    <p> Пользователь вводит два числа. Найдите и выведите максимальное из двух чисел.</p>
+                    <a class="uk-button uk-button-default" href="#exs2" uk-scroll>К следующей задаче</a>
+                </div>
+                <div class="uk-width-3-5@m uk-column-3-5@m uk-card uk-padding uk-animation-slide-right ">
+                    <!--Выполнение первой задачи-->
+                    <ul class="uk-flex-left" uk-tab="connect: #view-switcher-max1; animation: uk-animation-fade">
+                        <li class="uk-active">Превью</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <ul id="view-switcher-max1" class="uk-switcher">
+                        <li>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">Введите два числа</legend>
+
+                                <label for="inptMax1a" class="uk-form-label ">Первое: </label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="inptMax1a" class="uk-input">
+                                </div>
+
+                                <label for="inptMax2b" class="uk-form-label ">Второе</label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="inptMax1b" class="uk-input">
+                                </div>
+                                <button id="btnMax1" class="uk-button ">Сравнить</button>
+                            </fieldset>
+                            <p id="outMax1">&nbsp;</p>
+                        </li>
+                        <li class="html-source">
+                            ...
+                        </li>
+                        <li class="js-source">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="#exs2" class="uk-button uk-button-default" uk-scroll></a>
+    <div class="uk-section uk-section-default ">
+        <div class="uk-container uk-align-center ">
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
+                <!-- Условия второй задачи-->
+                <div class="uk-width-2-5@m uk-column-2-5@m uk-card uk-card-body uk-card-primary uk-animation-slide-left">
+                    <h3 class="uk-card-title">Задача #2</h3>
+                    <p> Пользователь вводит два числа. Найдите и выведите максимальное из двух чисел.</p>
+                    <p> Учтите вариант равенства чисел.</p>
+                    <a class="uk-button uk-button-default" href="#exs2" uk-scroll>К следующей задаче</a>
+                </div>
+                <div class="uk-width-3-5@m uk-column-3-5@m uk-card uk-padding uk-animation-slide-right ">
+                    <!--Выполнение второй задачи-->
+                    <ul class="uk-flex-left" uk-tab="connect: #view-switcher-max2; animation: uk-animation-fade">
+                        <li class="uk-active">Превью</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <ul id="view-switcher-max2" class="uk-switcher">
+                        <li>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">Введите два числа</legend>
+
+                                <label for="inptMax2a" class="uk-form-label ">Первое: </label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="inptMax2a" class="uk-input">
+                                </div>
+
+                                <label for="inptMax2b" class="uk-form-label ">Второе</label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="inptMax2b" class="uk-input">
+                                </div>
+                                <button id="btnMax2" class="uk-button ">Сравнить</button>
+                            </fieldset>
+                            <p id="outMax2">&nbsp;</p>
+                        </li>
+                        <li class="html-source">
+                            ...
+                        </li>
+                        <li class="js-source">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="#exs3" class="uk-button uk-button-default" uk-scroll></a>
+    <div class="uk-section uk-section-default ">
+        <div class="uk-container uk-align-center ">
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
+                <!-- Условия третьей задачи-->
+                <div class="uk-width-2-5@m uk-column-2-5@m uk-card uk-card-body uk-card-primary uk-animation-slide-left">
+                    <h3 class="uk-card-title">Задача #3</h3>
+                    <p>
+                        В первом подъезде квартиры с 1 по 20. Во втором с 21 по 48. В третьем с 49 по 90. Пользователь вводит номер квартиры.
+                    </p>
+                    <p>
+                        Программа должна указать в каком подъезде находится данная квартира.
+                    </p>
+                    <a class="uk-button uk-button-default" href="#exs4" uk-scroll>К следующей задаче</a>
+                </div>
+                <div class="uk-width-3-5@m uk-column-3-5@m uk-card uk-padding uk-animation-slide-right ">
+                    <!--Выполнение треьей задачи-->
+                    <ul class="uk-flex-left" uk-tab="connect: #view-switcher-getEntrance; animation: uk-animation-fade">
+                        <li class="uk-active">Превью</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <ul id="view-switcher-getEntrance" class="uk-switcher">
+                        <li>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">Введите номер квартиры от 1 до 90</legend>
+
+                                <label for="inptAppart" class="uk-form-label ">Квартира #: </label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="inptAppart" class="uk-input">
+                                </div>
+                                <button id="getEntrance" class="uk-button ">Узнать номер квартиры</button>
+                            </fieldset>
+                            <p id="outEntrance"></p>
+                        </li>
+                        <li class="html-source">
+                            ...
+                        </li>
+                        <li class="js-source">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="#exs4" class="uk-button uk-button-default" uk-scroll></a>
+    <div class="uk-section uk-section-default ">
+        <div class="uk-container uk-align-center ">
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
+                <!-- Условия третьей задачи-->
+                <div class="uk-width-2-5@m uk-column-2-5@m uk-card uk-card-body uk-card-primary uk-animation-slide-left">
+                    <h3 class="uk-card-title">Задача #4</h3>
+                    <p>
+                        Пользователь вводит логин и пароль. Если логин и пароль совпадают с указанными ниже, то выводится «Добро пожаловать».
+                    </p>
+                    <p>
+                        Если не совпадают – то «Ошибка входа»
+                    </p>
+                    <h4>Логины и пароли:</h4>
+                    <ul>
+                        <li>alex: 777 </li>
+                        <li>ivan: 334455 </li>
+                        <li>petr: b5678</li>
+                    </ul>
+
+                    <a class="uk-button uk-button-default" href="#exs5" uk-scroll>К следующей задаче</a>
+                </div>
+                <div class="uk-width-3-5@m uk-column-3-5@m uk-card uk-padding uk-animation-slide-right ">
+                    <!--Выполнение третьей задачи-->
+                    <ul class="uk-flex-left" uk-tab="connect: #view-switcher-Login; animation: uk-animation-fade">
+                        <li class="uk-active">Превью</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <ul id="view-switcher-Login" class="uk-switcher">
+                        <li>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">Для входа введите логин и пароль</legend>
+
+                                <label for="login" class="uk-form-label ">Логин: </label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="login" class="uk-input">
+                                </div>
+                                <label for="password" class="uk-form-label ">Пароль: </label>
+                                <div class="uk-form-controls">
+                                    <input type="password" id="password" class="uk-input">
+                                </div>
+                                <button id="btnLogin" class="uk-button ">Log in!</button>
+                            </fieldset>
+                            <p id="outLogin"></p>
+                        </li>
+                        <li class="html-source">
+                            ...
+                        </li>
+                        <li class="js-source">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="#exs5" class="uk-button uk-button-default" uk-scroll></a>
+    <div class="uk-section uk-section-default ">
+        <div class="uk-container uk-align-center ">
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
+                <!-- Условия третьей задачи-->
+                <div class="uk-width-2-5@m uk-column-2-5@m uk-card uk-card-body uk-card-primary uk-animation-slide-left">
+                    <h3 class="uk-card-title">Задача #5</h3>
+                    <p>
+                        Пользователь вводит год рождения.
+                    </p>
+                    <p>
+                        Программа показывает количество лет и если лет больше или равно 16, то пишет – «добро пожаловать», если нет – «вход воспрещен».
+                    </p>
+
+
+                    <a class="uk-button uk-button-default" href="#exs6" uk-scroll>К следующей задаче</a>
+                </div>
+                <div class="uk-width-3-5@m uk-column-3-5@m uk-card uk-padding uk-animation-slide-right ">
+                    <!--Выполнение третьей задачи-->
+                    <ul class="uk-flex-left" uk-tab="connect: #view-switcher-Age; animation: uk-animation-fade">
+                        <li class="uk-active">Превью</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <ul id="view-switcher-Age" class="uk-switcher">
+                        <li>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">Вход только после 16-ти"</legend>
+
+                                <label for="login" class="uk-form-label ">Ваш год рождения?</label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="Age" class="uk-input">
+                                </div>
+                                <button id="btnAge" class="uk-button ">Log in!</button>
+                            </fieldset>
+                            <p id="outAge"></p>
+                        </li>
+                        <li class="html-source">
+                            ...
+                        </li>
+                        <li class="js-source">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a id="#exs6" class="uk-button uk-button-default" uk-scroll></a>
+    <div class="uk-section uk-section-default ">
+        <div class="uk-container uk-align-center ">
+            <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
+                <!-- Условия третьей задачи-->
+                <div class="uk-width-2-5@m uk-column-2-5@m uk-card uk-card-body uk-card-primary uk-animation-slide-left">
+                    <h3 class="uk-card-title">Задача #6</h3>
+                    <p>
+                        Пользователь вводит стаж работы, а программа пишет ему надбавку.
+                    </p>
+                    <p>
+                        от 0 до 3 лет – надбавка 0% от 3 до 10 лет - надбавка 10% от 10 до 20 лет – надбавка 20% от 30 лет - 30%. Учтите вариант ошибки – пользователь вводит отрицательное число. </p>
+
+
+                    <a class="uk-button uk-button-default" href="#exs1" uk-scroll>К началу</a>
+                </div>
+                <div class="uk-width-3-5@m uk-column-3-5@m uk-card uk-padding uk-animation-slide-right ">
+                    <!--Выполнение третьей задачи-->
+                    <ul class="uk-flex-left" uk-tab="connect: #view-switcher-Work; animation: uk-animation-fade">
+                        <li class="uk-active">Превью</li>
+                        <li>HTML</li>
+                        <li>Javascript</li>
+                    </ul>
+
+                    <ul id="view-switcher-Work" class="uk-switcher">
+                        <li>
+                            <fieldset class="uk-fieldset">
+                                <legend class="uk-legend">Надбавка за выслугу лет</legend>
+
+                                <label for="login" class="uk-form-label ">Введите продожительность вашего стажа в годах</label>
+                                <div class="uk-form-controls">
+                                    <input type="text" id="Work" class="uk-input">
+                                </div>
+                                <button id="btnWork" class="uk-button ">Рассчитать</button>
+                            </fieldset>
+                            <p id="outWork"></p>
+                        </li>
+                        <li class="html-source">
+                            ...
+                        </li>
+                        <li class="js-source">
+                            ...
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery is required -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js "></script>
+    <!-- UIkit JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/js/uikit-icons.min.js "></script>
+    <script src="max1.js "></script>
+    <script src="max2.js "></script>
+    <script src="entrance.js"></script>
+    <script src="password.js"></script>
+    <script src="age.js"></script>
+    <script src="work.js"></script>
+    <script>
+        var z = function() {
+            return;
+        };
+
+    </script>
+</body>
+
+</html>
