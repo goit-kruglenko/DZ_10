@@ -9,8 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&amp;subset=cyrillic" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.28/css/uikit.css" />
-    <link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300,400,700&amp;subset=cyrillic" rel="stylesheet">
 </head>
 
 <body>
@@ -288,7 +288,7 @@
         </div>
     </div>
     <a id="#exs6" class="uk-button uk-button-default" uk-scroll></a>
-    <div class="uk-section uk-section-default ">
+    <div class="uk-section uk-section-default" id="Work-html-source">
         <div class="uk-container uk-align-center ">
             <div class="uk-grid-collapse uk-child-width-expand@s uk-grid-medium uk-padding" uk-grid>
                 <!-- Условия третьей задачи-->
@@ -325,7 +325,9 @@
                             <p id="outWork"></p>
                         </li>
                         <li class="html-source">
-                            ...
+                            <pre id="view-switcher-Work-html-source">
+
+                           </pre>
                         </li>
                         <li class="js-source">
                             ...
@@ -347,10 +349,19 @@
     <script src="age.js"></script>
     <script src="work.js"></script>
     <script>
+        var view_switcher;
+        var html_source;
+
+        function htmlEntities(str) {
+            return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+        }
+        document.getElementById('view-switcher-Work-html-source').innerHTML = htmlEntities(document.getElementById('Work-html-source').innerHTML);
+
+
+
         var z = function() {
             return;
         };
-
     </script>
 </body>
 
